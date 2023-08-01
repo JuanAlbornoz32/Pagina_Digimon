@@ -1,0 +1,64 @@
+header {
+    background-color: blue;
+}
+
+.logo-img {
+    width: 100px;
+    height: auto;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: orangered;
+    font-weight: bold;
+}
+
+#cambiarEstilo {
+    background-color: orangered;
+    color: blue;
+}
+
+#container {
+    width: 70%; 
+    margin: 0 auto; 
+}
+
+h1 {
+    text-align: center;
+    background-color: orangered;
+    color: black;
+    border-radius: 10px;    
+}
+
+table {
+    background-color: orangered;
+    border-collapse: collapse;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#tabla-digimons {
+    background-color: dodgerblue;
+    font-weight: bold;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+#tabla-digimons th, #tabla-digimons td {
+    border: 1px solid black; 
+}
+
+html body {
+    background-image: url("img/digimon.jpg");
+}
+
+#tabla-digimons.estilo-alternativo {        
+    background-color: brown;
+}
+
+#tabla-digimons.estilo-alternativo th,
+#tabla-digimons.estilo-alternativo td {
+    color: yellow;
+}
+
